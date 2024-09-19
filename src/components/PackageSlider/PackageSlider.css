@@ -1,0 +1,35 @@
+.slider-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slick-slide > div {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.slick-list {
+  overflow: visible; /* Allow visibility of edges */
+}
+
+.slick-arrow {
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Background for arrows */
+  border-radius: 50%;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .slick-prev {
+    left: 0rem !important;
+  }
+
+  .slick-next {
+    right: 4.2rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .slick-slide > div {
+  }
+}

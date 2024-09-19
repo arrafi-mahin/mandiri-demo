@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-dots {
+  bottom: 10px !important;
+}
+.slick-dots li button::before {
+  color: transparent !important;
+}
+.slick-dots.slick-thumb {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.slick-dots.slick-thumb li {
+  width: 14px;
+  height: 14px;
+  margin: 0 3px;
+  border-radius: 999px;
+  transition: all 0.5s ease-in-out;
+  will-change: width;
+  background-color: rgba(0, 0, 0, 0.37);
+}
+
+.slick-dots.slick-thumb li.slick-active {
+  background-color: #ffc955;
+  /* width: px; */
+}
+.slick-list {
+  overflow: visible !important;
+}
+.slider-container .slick-list {
+  padding-top: 40px !important;
+  padding-bottom: 70px !important;
+  /* padding-left: 17.25rem !important; */
+}
+.slider-container .slick-center {
+  margin: 0 20px !important;
+}
+.package .slick-slide {
+  transition: all 0.4s ease-in-out;
+  padding: 0px 20px;
+}
+.slick-center {
+  transform: scale(1.2);
+}
+.offer .slick-list {
+  padding-top: 10px !important;
+  padding-bottom: 20px !important;
+}
+.offer-card {
+  box-shadow: 0px 4px 20.239999771118164px 0px #0000001a;
+}
+.banking-card {
+  box-shadow: 0px 4px 20.239999771118164px 0px #0000001a;
+}
+.radial-yellow {
+  background: radial-gradient(#ffc955b0 0%, #ffffff36 99%);
+}
+.radial-blue {
+  background: radial-gradient(#006db66b 0%, #ffffff36 99%);
+}
+.service-card {
+  box-shadow: 0px 4px 20.239999771118164px 0px #0000001a;
+  border: 1.31px solid #ffffff33;
+}
+.commitment {
+  background: linear-gradient(
+    92.59deg,
+    rgba(0, 108, 182, 0.75) -16.2%,
+    #048fee 51.71%,
+    rgba(0, 108, 182, 0.75) 128.52%
+  );
+}
+.social-icon:hover {
+  fill: black;
+  transition: all;
+  transition-duration: 300ms;
+}
+.social-icon {
+  color: #016eb8;
+}
+/* test */
+.slick-arrow {
+  top: 40% !important;
+}
+.slick-prev::before {
+  content: none !important;
+}
+/* .slick-next {
+  transform: translateY(-50%) !important;
+} */
+.slick-next::before {
+  content: none !important;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #2d2a29;
+}
+
+
+@media (max-width: 767px){
+  .footer-upper-text{
+    text-align: center;
+  }
+  .footer-upper-section{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+  }
+}
+
+@media (max-width: 425px){
+  .footer-upper-section{
+    flex-direction: column;
+    align-items: center;
+  }
+}
