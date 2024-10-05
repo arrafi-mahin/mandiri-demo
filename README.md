@@ -14,7 +14,7 @@ To get started with the project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://gitlab.com/singularity-fe/demo-banking-project.git
+   git clone https://github.com/arrafi-mahin/mandiri-demo.git
    ```
 
    ```bash
