@@ -1,7 +1,7 @@
 # Demo Frontend
 
 ## Live Demo
-https://demo.singularitybd.net/
+[https://demo.singularitybd.net/](https://mandiri-banking-website.vercel.app/)
 
 ## Overview
 
@@ -18,7 +18,7 @@ To get started with the project, follow these steps:
    ```
 
    ```bash
-   cd demo-banking-project
+   cd mandiri-demo
    ```
 
 2. **Install dependencies:**
