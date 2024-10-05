@@ -1,7 +1,7 @@
 # Demo Frontend
 
 ## Live Demo
-[https://demo.singularitybd.net/](https://mandiri-banking-website.vercel.app/)
+[Live Url](https://mandiri-banking-website.vercel.app/)
 
 ## Overview
 
